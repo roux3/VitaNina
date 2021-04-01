@@ -89,39 +89,81 @@ h1 {
     width: 600px;
 }
 
-/* footer{
+.rodade{
 
     color: white;
     background-color: #21022d;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
 
-} */
+
+} 
+
 
 
 .redesociais{
     float: left;
     background-color: #21022d;
     width: 50%;
-    height: ;
+    display: grid;
+    color: white;
 }
 
 .endereco{
     float: right;
     background-color: #21022d;
     width: 50%;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.whatsapp{
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.instagram{
+    font-family:'Arial Narrow Bold', sans-serif;
 }
 
 
-.whatsapp p{
-    float: left;
 
-}
-
-
-
-.redesociais img{
+.instagram img{
+    margin-top: 6px;
+    margin-left: 60px;
+    margin-right: 15px;
     height: 30px;
-    width: 40px;
+    width: 30px;
+    float: left;
+}
+
+.whatsapp img{
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 5px;
+    height: 40px;
+    width: 50px;
+    float: left;
+}
+
+.redesociais h1{
+    font-size: 24px;
+}
+
+.endereco h1{
+    font-size: 24px;
+}
+.endereco p{
+    font-size: 16px;
+}
+
+.whatsapp img:hover{
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    
+}
+
+
+.instagram img:hover{
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
 }
