@@ -89,11 +89,39 @@ h1 {
     width: 600px;
 }
 
-.rodape{
+/* footer{
+
     color: white;
     background-color: #21022d;
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+
+} */
+
+
+.redesociais{
+    float: left;
+    background-color: #21022d;
+    width: 50%;
+    height: ;
 }
 
+.endereco{
+    float: right;
+    background-color: #21022d;
+    width: 50%;
+}
+
+
+.whatsapp p{
+    float: left;
+
+}
+
+
+
+.redesociais img{
+    height: 30px;
+    width: 40px;
+}
